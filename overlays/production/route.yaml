@@ -2,7 +2,8 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
  labels:
- app: todonodejs
+   app: todonodejs
+   name: frontend
  name: frontend
 spec:
  host: todo.apps.ocp4-mng.example.com
